@@ -1,11 +1,11 @@
 /* :root → s'applique à toute la page (élément racine = <html>) */
 :root {
   /* Couleurs principales du thème solaire */
-  --solar-orange: #f97316;   /* orange vif  (boutons, accents) */
-  --solar-amber:  #f59e0b;   /* ambre/doré  (highlights, textes importants) */
-  --solar-dark:   #1c1917;   /* presque noir (fonds sombres) */
-  --solar-gray:   #78716c;   /* gris chaud  (textes secondaires) */
-  --solar-light:  #fef3c7;   /* jaune très pâle (fonds doux) */
+  --solar-orange: #f97316;   /* boutons, accents */
+  --solar-amber:  #f59e0b;   /* textes importants */
+  --solar-dark:   #1c1917;   /* fonds sombres */
+  --solar-gray:   #78716c;   /* textes secondaires */
+  --solar-light:  #fef3c7;   /* fonds doux */
 
   /* Hauteur de la navbar  */
   --navbar-h: 76px;
