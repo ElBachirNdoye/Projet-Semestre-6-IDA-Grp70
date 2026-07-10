@@ -1,0 +1,38 @@
+src/
+├── Controllers/
+│   ├── ServiceController.php          # Gestion globale des services
+│   ├── InstallationController.php     # Gestion des installations
+│   └── MaintenanceController.php      # Gestion des maintenances
+│
+├── Models/
+│   ├── Installation.php               # Modèle Installation
+│   ├── Maintenance.php                # Modèle Maintenance
+│   └── Technicien.php                 # Modèle Technicien
+│
+├── Views/
+│   ├── services/
+│   │   ├── installation/
+│   │   │   ├── demander.php
+│   │   │   ├── suivre.php
+│   │   │   └── historique.php
+│   │   ├── maintenance/
+│   │   │   ├── demander.php
+│   │   │   ├── suivre.php
+│   │   │   └── historique.php
+│   │   └── technicien/
+│   │       ├── dashboard.php
+│   │       └── interventions.php
+│   │
+│   └── partials/
+│       ├── service_card.php
+│       └── statut_badge.php
+│
+├── Core/
+│   ├── Database.php                    # Connexion PDO
+│   └── ServiceValidator.php           # Validation des services
+│
+└── public/
+    ├── js/
+    │   └── services.js                # JavaScript pour les services
+    └── css/
+        └── services.css                # Styles spécifiques services
